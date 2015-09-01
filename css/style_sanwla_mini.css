@@ -1,0 +1,78 @@
+html{background:  #e2e2e2;}
+
+#body{
+	font-family: Ebrima;
+	width: 245px; min-width: 245px;
+	height: 200px;
+	margin: 0 auto;
+	background:#ddd;
+}
+
+#content_calendar{
+	border: 1px solid #fff;
+}
+
+#titre_calendar{	
+	text-align: center;
+	width: 235px; min-width: 235px;
+	height: 15px;
+	display: inline-block;
+	background: #eee;
+	padding: 5px;
+}
+#titre_calendar h1{
+	display: inline-block;
+	margin-top: -5px;
+	margin-bottom: 2px;
+	text-align: center;
+	font-size: 13.5px;
+	color: #aaa;
+}
+#copyright_calendar{
+	bottom: 0;
+	font-size: 10px;
+	float: left;
+	left: 0;
+	color: #bbb;
+}
+
+table{
+	position: absolute;
+	border: 0.5px solid #fff;
+	margin: 0 auto;
+	margin-top: 0;
+	direction: rtl;
+	width: 245px; min-width: 245px;
+	height: 150px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th{
+	border: 1px solid #eee;
+	background-color: #bbb;
+	font-size: 13px;
+	margin: 2px;
+	padding: 2px;
+}
+
+.case{
+	font-family: Ebrima, DejaVu;
+	border: 1px solid #eee;
+	width: 5px; 
+	font-size: 12px;
+}
+
+.active_date{
+	border: 1px solid #eee;
+	background: rgba(0,200,0,0.5);
+	color: #fff;
+	font-size: 12px;
+}
+
+/* les images qui font passees aux dates suivantes */
+.prevNext{
+	cursor: pointer;
+	z-index: 20;
+}
+

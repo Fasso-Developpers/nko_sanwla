@@ -1,0 +1,63 @@
+html{background:  #e2e2e2;}
+
+body{
+	font-family: Ebrima;
+	width: 60%; min-width: 750px;
+	min-height: 370px;
+	margin: 0 auto;
+	background:#ddd;
+	padding: 20px;
+}
+
+#content{
+	border: 1px solid #fff;
+}
+
+#titre{	margin-top: -20px;
+	text-align: center;
+	font-size: 20px; 
+	background: #eee;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 5px;
+}
+
+table{
+	border: 2px solid #fff;
+	margin: 30px auto;
+	direction: rtl;
+	width: 90%;
+	height: 300px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th{
+	border: 1px solid #eee;
+	background-color: #bbb;
+	font-size: 20px;
+	width: 20px;
+	height: 10px;
+	margin: 0 5px 0 5px;
+	padding: 20px;
+}
+
+.case{
+	font-family: Ebrima, DejaVu;
+	border: 1px solid #eee;
+	width: 10px; 
+	height: 30px;
+	font-size: 24px;
+}
+
+.active_date{
+	border: 1px solid #eee;
+	background: rgba(0,200,0,0.5);
+	color: #fff;
+	font-size: 24px;
+}
+/* les images qui font passees aux dates suivantes */
+.prevNext{
+	cursor: pointer;
+	z-index: 20;
+}
